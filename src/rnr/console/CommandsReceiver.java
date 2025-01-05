@@ -24,7 +24,8 @@ public final class CommandsReceiver {
     } 
     try {
     	
-    	// RickRollLog.dumpStackTrace("Commands Receiver receive; classname: " + className + "; methodName: " + methodName + "; argument: " + argument);
+    	RickRollLog.dumpStackTrace("Commands Receiver receive; classname: " + className + "; methodName: " + methodName + "; argument: " + argument);
+    	
       Class<?> clazz = classNamesAbbreviation.get(className);
       if (null == clazz)
         clazz = Class.forName(className); 

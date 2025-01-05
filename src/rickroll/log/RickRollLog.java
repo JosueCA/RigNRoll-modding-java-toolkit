@@ -231,7 +231,36 @@ public class RickRollLog {
 					true));
 
 			out.println("---------------------------------------- " + dateFormat.format(now));
-			Exception aux = new Exception(traceOrigin);
+			Exception aux = new RickRollStackStraceException(traceOrigin);
+			aux.printStackTrace(out);
+			out.println("----------------------------------------");
+		} catch (FileNotFoundException e) {
+			RickRollLog.log("##### " + e.getMessage());
+		} finally {
+			if (out != null) {
+				out.close();
+			}
+		}
+	}
+	
+	public static void dumpStackTrace(String traceOrigin, Throwable ex) {
+		if (!RickRollConfig.DEV) {
+			return;
+		}
+		if (traceOrigin == null || traceOrigin.equals("")) {
+			return;
+		}
+		
+		Date now = new Date();
+		PrintWriter out = null;
+		try {
+
+			out = new PrintWriter(new FileOutputStream(new File(
+					RickRollConfig.RICK_LOGS_DIR + "_RickRollLog_log.txt"),
+					true));
+
+			out.println("---------------------------------------- " + dateFormat.format(now));
+			Exception aux = new RickRollStackStraceException(traceOrigin, ex);
 			aux.printStackTrace(out);
 			out.println("----------------------------------------");
 		} catch (FileNotFoundException e) {

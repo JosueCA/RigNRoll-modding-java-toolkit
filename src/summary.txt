@@ -1,0 +1,3 @@
+Summary for cfr-decompiled/RigNRoll_scripts.jar
+Decompiled with CFR 0.151
+Exception analysing jar org.benf.cfr.reader.util.ConfusedCFRException: No such jar file cfr-decompiled/RigNRoll_scripts.jar
