@@ -16,7 +16,7 @@ public class RickRollConfig {
 	// END GAME SAVES
 	
 	// KEEP IN SYNC
-	public static boolean DECODE_FILES = false;
+	public static boolean DECODE_FILES = true;
 	public static String[] SOURCES_ENCODED_FILE_EXTENSIONS = {
 		"pkqt",
 		"cnf",

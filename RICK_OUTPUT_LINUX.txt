@@ -1,0 +1,240 @@
+rignroll/drive_c/RICK/
+├── Data
+│   ├── Actors
+│   │   ├── animations.xml
+│   │   └── vieweranimations.xml
+│   ├── config
+│   │   ├── anm_resources.xml
+│   │   ├── back_quests.xml
+│   │   ├── banners.xml
+│   │   ├── barrels_den.xml
+│   │   ├── big_fire_particles_den.xml
+│   │   ├── bigrace_cbvideocalls.xml
+│   │   ├── bigrace_cbvideodialogs.xml
+│   │   ├── breakage_particles_den.xml
+│   │   ├── breakcar.xml
+│   │   ├── broken_glass_den.xml
+│   │   ├── cabincam.xml
+│   │   ├── cargos.xml
+│   │   ├── cbvideocalls.xml
+│   │   ├── cbvideodialogs.xml
+│   │   ├── commercials.xml
+│   │   ├── demoQuests.xml
+│   │   ├── dialogs.xml
+│   │   ├── dsnd.xml
+│   │   ├── eco.xml
+│   │   ├── explosion_den.xml
+│   │   ├── filesload.xml
+│   │   ├── flash_ptcl.xml
+│   │   ├── journal.xml
+│   │   ├── manufacturerslogos.xml
+│   │   ├── map_icons.xml
+│   │   ├── menu
+│   │   │   ├── helpcontent.xml
+│   │   │   ├── intro.xml
+│   │   │   ├── map_icons.xml
+│   │   │   ├── menu_actions.xml
+│   │   │   ├── menu_banner.xml
+│   │   │   ├── menu_bar.xml
+│   │   │   ├── menu_com.xml
+│   │   │   ├── menu_documents.xml
+│   │   │   ├── menu_esc.xml
+│   │   │   ├── menu_gasstation.xml
+│   │   │   ├── menu_motel.xml
+│   │   │   ├── menu_msg_gameover_TOTAL.xml
+│   │   │   ├── menu_msg_gameover.xml
+│   │   │   ├── menu_office.xml
+│   │   │   ├── menu_police.xml
+│   │   │   ├── menu_race01.xml
+│   │   │   ├── menu_race02.xml
+│   │   │   ├── menu_race03.xml
+│   │   │   ├── menu_race04.xml
+│   │   │   ├── menu_race05.xml
+│   │   │   ├── menu_repair.xml
+│   │   │   ├── menu_resources.xml
+│   │   │   ├── menu_roadservice.xml
+│   │   │   ├── menu_tutorial.xml
+│   │   │   ├── menu_unsettled_debt.xml
+│   │   │   ├── menu_warehouse.xml
+│   │   │   └── specmenu.xml
+│   │   ├── menuesfields.xml
+│   │   ├── messageEvents.xml
+│   │   ├── mission_points.xml
+│   │   ├── nameresolve.xml
+│   │   ├── npc_behavior.xml
+│   │   ├── npctable.xml
+│   │   ├── organizer.xml
+│   │   ├── particles.xml
+│   │   ├── PassangerAnimations.xml
+│   │   ├── payoff.xml
+│   │   ├── people_icons.xml
+│   │   ├── pipe_particles_den.xml
+│   │   ├── policeLightsAnimations.cfg
+│   │   ├── policeLightsLamps.cfg
+│   │   ├── police_ptcl.xml
+│   │   ├── quests.xml
+│   │   ├── race_config.xml
+│   │   ├── race_logos_small.xml
+│   │   ├── race_logos.xml
+│   │   ├── race_rating.xml
+│   │   ├── race_templates.xml
+│   │   ├── race_truckers.xml
+│   │   ├── rain_splashes_den.xml
+│   │   ├── repairsystem.xml
+│   │   ├── reservedvehicles.xml
+│   │   ├── restyle_prices.xml
+│   │   ├── scenario_missions1.xml
+│   │   ├── scenario_missions.xml
+│   │   ├── scenariostates.xml
+│   │   ├── scenario_values.xml
+│   │   ├── scenes
+│   │   │   ├── animmodels.xml
+│   │   │   ├── bartracks.xml
+│   │   │   ├── bar.xml
+│   │   │   ├── carcameras.xml
+│   │   │   ├── carmacro.xml
+│   │   │   ├── cbvideo.xml
+│   │   │   ├── dakota.xml
+│   │   │   ├── fade.xml
+│   │   │   ├── missions.xml
+│   │   │   ├── police.xml
+│   │   │   ├── prizes.xml
+│   │   │   ├── scenes.xml
+│   │   │   ├── shoot.xml
+│   │   │   ├── specobjectsmodels.xml
+│   │   │   ├── sto.xml
+│   │   │   ├── test.xml
+│   │   │   ├── util.xml
+│   │   │   ├── victory.xml
+│   │   │   └── xxxmacroses.xml
+│   │   ├── shootparticle.xml
+│   │   ├── soundenvironments.xml
+│   │   ├── soundevents.xml
+│   │   ├── sparcs_den.xml
+│   │   ├── trash_den.xml
+│   │   ├── vehicle01_icons.xml
+│   │   ├── vehicle_icons.xml
+│   │   └── water_den.xml
+│   ├── Missions
+│   │   ├── altman_4_cbcall.xml
+│   │   ├── altman_4_cbvdialog.xml
+│   │   ├── altman_4_dialog.xml
+│   │   ├── altman_4_missions.xml
+│   │   ├── altman_4_organizer.xml
+│   │   ├── dnm_cbcall.xml
+│   │   ├── dnm_cbvdialog.xml
+│   │   ├── dnm_dialog.xml
+│   │   ├── dnm_missions.xml
+│   │   ├── dnm_organizer.xml
+│   │   ├── o'Leary_cbcall.xml
+│   │   ├── o'Leary_cbvdialog.xml
+│   │   ├── o'Leary_dialog.xml
+│   │   ├── o'Leary_missions.xml
+│   │   ├── o'Leary_organizer.xml
+│   │   ├── qDineev_cbcall.xml
+│   │   ├── qDineev_cbvdialog.xml
+│   │   ├── qDineev_dialog.xml
+│   │   ├── qDineev_missions.xml
+│   │   ├── qDineev_organizer.xml
+│   │   ├── short_2_1_cbcall.xml
+│   │   ├── short_2_1_cbvdialog.xml
+│   │   ├── short_2_1_dialog.xml
+│   │   ├── short_2_1_missions.xml
+│   │   ├── short_2_1_organizer.xml
+│   │   ├── short_aeroport_cbcall.xml
+│   │   ├── short_aeroport_cbvdialog.xml
+│   │   ├── short_aeroport_dialog.xml
+│   │   ├── short_aeroport_missions.xml
+│   │   ├── short_aeroport_organizer.xml
+│   │   ├── short_army_cbcall.xml
+│   │   ├── short_army_cbvdialog.xml
+│   │   ├── short_army_dialog.xml
+│   │   ├── short_army_missions.xml
+│   │   ├── short_army_organizer.xml
+│   │   ├── short_market_cbcall.xml
+│   │   ├── short_market_cbvdialog.xml
+│   │   ├── short_market_dialog.xml
+│   │   ├── short_market_missions.xml
+│   │   ├── short_market_organizer.xml
+│   │   ├── short_ufo_cbcall.xml
+│   │   ├── short_ufo_cbvdialog.xml
+│   │   ├── short_ufo_dialog.xml
+│   │   ├── short_ufo_missions.xml
+│   │   ├── short_ufo_organizer.xml
+│   │   ├── short_video_cbcall.xml
+│   │   ├── short_video_cbvdialog.xml
+│   │   ├── short_video_dialog.xml
+│   │   ├── short_video_missions.xml
+│   │   └── short_video_organizer.xml
+│   ├── Wav
+│   │   ├── animation_sounds.xml
+│   │   ├── damages_scroring.xml
+│   │   ├── damages.xml
+│   │   ├── menu_sounds.xml
+│   │   ├── MOTORS
+│   │   │   └── motorsnd.xml
+│   │   ├── motor_sound_params.xml
+│   │   ├── parameters.xml
+│   │   ├── static.xml
+│   │   ├── t_CarSound.xml
+│   │   ├── train_sounds.xml
+│   │   └── unique_sounds.xml
+│   └── Weather
+│       └── environments.xml
+├── GameWorld
+│   ├── bigrace.cfg
+│   ├── game.cnf
+│   ├── locdsnd.xml
+│   ├── locmain.xml
+│   ├── MOD.CFG
+│   ├── mp_org.xml
+│   ├── mp.xml
+│   ├── parking_points.xml
+│   ├── scenario_parking.xml
+│   ├── scenario_points.xml
+│   ├── ssn.cfg
+│   ├── upgradefit.xml
+│   ├── way.cfg
+│   ├── wdims.cfg
+│   └── whstart.xml
+├── MonsterCup
+│   ├── bigrace.cfg
+│   ├── game.cnf
+│   ├── locdsnd.xml
+│   ├── locmain.xml
+│   ├── MOD.CFG
+│   ├── mp_org.xml
+│   ├── mp.xml
+│   ├── parking_points.xml
+│   ├── scenario_parking.xml
+│   ├── scenario_points.xml
+│   ├── ssn.cfg
+│   ├── way.cfg
+│   ├── wdbinfo.xml
+│   ├── wdims.cfg
+│   └── whstart.xml
+└── Trucks
+    ├── CabinPanel.xml
+    ├── deform.xml
+    ├── tconfig
+    │   ├── 4900_EX_tside.xml
+    │   ├── 9500_tside.xml
+    │   ├── Alpine_tside.xml
+    │   ├── Argosy_tside.xml
+    │   ├── atlas_tside.xml
+    │   ├── Century_Sport_tside.xml
+    │   ├── Century_tside.xml
+    │   ├── Coronado_tside.xml
+    │   ├── El_Dorado_tside.xml
+    │   ├── FLD120_tside.xml
+    │   ├── Freedom_tside.xml
+    │   ├── Hercules_Sport_tside.xml
+    │   ├── Inyo_tside.xml
+    │   ├── Liberty_tside.xml
+    │   ├── Sterling_Sport_tside.xml
+    │   ├── Titan_Ventura_Sport_tside.xml
+    │   ├── Ventura_tside.xml
+    │   └── Western_Star_Sport_tside.xml
+    └── upgradefit.xml
+
+14 directories, 224 files
